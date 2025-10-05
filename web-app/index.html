@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacemaker - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <div class="logo">
+                <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="30" cy="30" r="28" stroke="#6B9BD1" stroke-width="4"/>
+                    <path d="M20 30 L27 38 L42 23" stroke="#6B9BD1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <h1>Pacemaker</h1>
+            <p class="subtitle">Welkom terug</p>
+            
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Gebruikersnaam</label>
+                    <input type="text" id="username" name="username" placeholder="Voer gebruikersnaam in" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Wachtwoord</label>
+                    <input type="password" id="password" name="password" placeholder="Voer wachtwoord in" required>
+                </div>
+                
+                <div class="error-message" id="errorMessage"></div>
+                
+                <button type="submit" class="login-button">Inloggen</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
