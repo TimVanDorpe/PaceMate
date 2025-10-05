@@ -71,7 +71,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     const SizedBox(height: 24),
                     const Text(
-                      'Pacemaker',
+                      'PaceMate',
                       style: TextStyle(
                         fontSize: 32,
                         fontWeight: FontWeight.w600,
